@@ -10,7 +10,7 @@ import banner6 from "../../../assets/home/06.png";
 
 const Banner = () => {
   return (
-    <Carousel autoPlay>
+    <Carousel autoPlay repeat>
       <div>
         <img src={banner1} />
       </div>
