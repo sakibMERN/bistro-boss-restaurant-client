@@ -24,7 +24,7 @@ const Menu = () => {
             <Helmet>
                 <title>Bistro Boss | Menu</title>
             </Helmet>
-            <Cover menuImg={CoverImg} title={'Our Menu'}></Cover>
+            <Cover menuImg={CoverImg} title={'our menu'}></Cover>
             {/* Today's offer section */}
             <section className='my-20'>
                 <SectionTitle subHeading={"Don't Miss"} heading={"Today's Offer"}></SectionTitle>
@@ -33,24 +33,24 @@ const Menu = () => {
             {/* Desert Section */}
             <section className='my-20'>
                 {/* <SectionTitle subHeading={"Don't Miss"} heading={"Today's Offer"}></SectionTitle> */}
-                <MenuCategory items={dessert} title={"Dessert"} coverImg={dessertImg}></MenuCategory>
+                <MenuCategory items={dessert} title={"dessert"} coverImg={dessertImg}></MenuCategory>
             </section>
 
             {/* Pizza Section */}
             <section className='my-20'>
                 {/* <SectionTitle subHeading={"Don't Miss"} heading={"Today's Offer"}></SectionTitle> */}
-                <MenuCategory items={pizza} title={"Pizza"} coverImg={pizzaImg}></MenuCategory>
+                <MenuCategory items={pizza} title={"pizza"} coverImg={pizzaImg}></MenuCategory>
             </section>
 
             {/* Salad Section */}
             <section className='my-20'>
                 {/* <SectionTitle subHeading={"Don't Miss"} heading={"Today's Offer"}></SectionTitle> */}
-                <MenuCategory items={salad} title={"Salad"} coverImg={saladImg}></MenuCategory>
+                <MenuCategory items={salad} title={"salad"} coverImg={saladImg}></MenuCategory>
             </section>
             {/* Salad Section */}
             <section className='my-20'>
                 {/* <SectionTitle subHeading={"Don't Miss"} heading={"Today's Offer"}></SectionTitle> */}
-                <MenuCategory items={soup} title={"Soups"} coverImg={soupImg}></MenuCategory>
+                <MenuCategory items={soup} title={"soups"} coverImg={soupImg}></MenuCategory>
             </section>
             
             
