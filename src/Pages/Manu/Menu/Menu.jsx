@@ -5,6 +5,7 @@ import CoverImg from '../../../assets/menu/banner3.jpg'
 import dessertImg from '../../../assets/menu/dessert-bg.jpeg';
 import pizzaImg from '../../../assets/menu/pizza-bg.jpg';
 import saladImg from '../../../assets/menu/salad-bg.jpg';
+import soupImg from '../../../assets/menu/soup-bg.jpg';
 import PopularMenu from '../../Home/PopularMenu/PopularMenu';
 import useMenu from '../../../hooks/useMenu';
 import SectionTitle from '../../../components/SectionTitle/SectionTitle';
@@ -32,7 +33,7 @@ const Menu = () => {
             {/* Desert Section */}
             <section className='my-20'>
                 {/* <SectionTitle subHeading={"Don't Miss"} heading={"Today's Offer"}></SectionTitle> */}
-                <MenuCategory items={offered} title={"Dessert"} coverImg={dessertImg}></MenuCategory>
+                <MenuCategory items={dessert} title={"Dessert"} coverImg={dessertImg}></MenuCategory>
             </section>
 
             {/* Pizza Section */}
@@ -45,6 +46,11 @@ const Menu = () => {
             <section className='my-20'>
                 {/* <SectionTitle subHeading={"Don't Miss"} heading={"Today's Offer"}></SectionTitle> */}
                 <MenuCategory items={salad} title={"Salad"} coverImg={saladImg}></MenuCategory>
+            </section>
+            {/* Salad Section */}
+            <section className='my-20'>
+                {/* <SectionTitle subHeading={"Don't Miss"} heading={"Today's Offer"}></SectionTitle> */}
+                <MenuCategory items={soup} title={"Soups"} coverImg={soupImg}></MenuCategory>
             </section>
             
             

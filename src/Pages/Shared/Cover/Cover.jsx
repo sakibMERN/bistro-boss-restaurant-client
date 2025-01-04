@@ -1,12 +1,12 @@
 import React from "react";
 import { Parallax } from "react-parallax";
 
-const Cover = ({ menuImg, title }) => {
-  console.log(menuImg);
+const Cover = ({ img, title }) => {
+  console.log(img);
   return (
     <Parallax
       blur={{ min: -50, max: 50 }}
-      bgImage={menuImg}
+      bgImage={img}
       bgImageAlt="the Menu"
       strength={-200}
     >
